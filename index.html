@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+  <link crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <link rel="stylesheet" href="static/css/style.css">
+        <h1 style="font-size:80px;"><b>Belly Button Biodiversity Dashboard</h1></b>
+        <h2 style="font-size:40px;"><b>Use the interactive charts below to explore the dataset</h2></b>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <p style="font-size:20px;"><b>
+        Your belly button has its own tiny ecosystem. A 2012 research review showed that your average belly button may be home to 67 bacteria types. Fungi and other germs can also get trapped inside your belly button region.
+      </p></b>
+      <p style="font-size:20px;"><b>
+        The most common skin bacteria encountered on participants in the Belly Button Biodiversity Project belonged to the groups:
+        Staphylococci:  (family of bacteria that causes staph infections),
+        Corynebacteria: (family of bacteria that causes diphtheria),
+        Actinobacteria: (family of bacteria that causes vaginal inflammation),
+        Clostridiales:  (family of bacteria that causes botulism and tetanus - mostly in animals),
+        and Bacilli:    (family of bacteria that causes ear infections, meningitis & anthrax).
+        Nov 29, 2016
+      </p></b>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <h4>Test Subject ID No.:</h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="bar"></div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>  
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
