@@ -17,3 +17,16 @@ December 18, 2012 The Atlantic
 * CSS
 * Plotly
 
+## Plotly Charts
+Most of the Module taught us methods to create various charts from different datasets.  The charts included line, pie and vertical and horizontal bar charts.  
+![newplot (4)](https://user-images.githubusercontent.com/99851509/172101368-d505454c-087b-4b57-9862-7169ddc6cdbc.png)
+
+
+In the Challenge portion, the aforementioned charts were welcomed with an interactive scatterplot chart as well as the addition of a very new one called a gauge chart.  This chart which was also interactive looked very similar to a speedometer as it was in the shape of a semi-arc.  These can be viewed through the attached link at the top of this ReadMe file.
+
+## Summary
+This module was very engaging as it was challenging.  The use of the console during the coding process proved useful to pinpoint certain errors, however I did have to reach out to Learning Assistants a few times to get guidance in correcting those errors.  One error in particular, the creation of an array variable for the metadata was one I actually saw but could not pinpoint enough to correct on my own.  
+
+Learning about real studies that were conducted on bacterial species found in belly buttons was a bit shocking.  Something to think about the next time I take a shower.
+
+The personalization of the webpage was another highlight as it was personalizing the UFO webpage from Module 11.  At first, I did not see the appeal of creating webpages.  I am starting to appreciate the creation of these webpages especially learning the ins and outs of how they work.
