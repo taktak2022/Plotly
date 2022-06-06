@@ -16,6 +16,7 @@ December 18, 2012 The Atlantic
 * JavaScript
 * CSS
 * Plotly
+* w3schools.com/html/html_styles (this site became very handy with the webpage personalizations)
 
 ## Plotly Charts
 Most of the Module taught us methods to create various charts from different datasets.  The charts included line, pie and vertical and horizontal bar charts.  
